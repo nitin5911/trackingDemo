@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Origin address /Enter your location"
+        android:id="@+id/addrsedttextid"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Destination address/Enter your second location"
+        android:id="@+id/addrsedttextid2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get Location from address"
+        android:id="@+id/getlocationbtnid" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get Current Location"
+        android:id="@+id/getcurlocationbtnid" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get address from given location"
+        android:id="@+id/getgivenlocationbtnid" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get distance and duration b/w locations"
+        android:id="@+id/getdurationbtnid" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Your Current lat long"
+    android:id="@+id/currentlatlongtextid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here for map"
+        android:id="@+id/clickformapid" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here for Tracking map"
+        android:id="@+id/trackmapclickid" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/starttimeiconid"
+        android:background="@drawable/clockicon"
+        android:layout_margin="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clockicon"
+        android:id="@+id/endtimeiconid"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/starttimeid"
+        android:layout_margin="5dp"
+        android:text="Start Timming"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endtimeid"
+        android:layout_margin="5dp"
+        android:text="End Timming"/>
+
+</LinearLayout>
